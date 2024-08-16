@@ -15,7 +15,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 h1 {
@@ -86,4 +86,22 @@ img {
 
 .btn:focus {
   outline: none;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-size: 110px;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container1,
+  .container2 {
+    margin: 20px;
+    width: 95vw;
+    text-align: center;
+    padding: 10px;
+  }
 }
