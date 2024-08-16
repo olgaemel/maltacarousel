@@ -98,9 +98,14 @@ img {
     flex-direction: column;
     justify-content: center;
   }
+
+  .container1 {
+    height: 30vh;
+    margin-bottom: 100px;
+  }
   .container1,
   .container2 {
-    margin: 20px;
+    margin: 50px;
     width: 95vw;
     text-align: center;
     padding: 10px;
@@ -114,13 +119,21 @@ img {
 
   .container1,
   .container2 {
-    margin: 20px;
+    margin: 30px;
+  }
+
+  .container1 {
+    margin-bottom: 150px;
   }
 }
 
 @media (max-width: 350px) {
   h1 {
     font-size: 90px;
-    margin-top: -30px;
+    margin-top: -50px;
+  }
+
+  .container1 {
+    margin-bottom: 200px;
   }
 }
